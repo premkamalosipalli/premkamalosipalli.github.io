@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" rel="stylesheet"
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <style>
+    body {
+    background-color: #000000
+    }
+
+    .msg-form {
+        background-color: #000000;
+        padding: 20px
+    }
+
+    .form-group{
+        color: white;
+    }
+
+    .pad-icon {
+        padding-top: 50px;
+        padding-left: 20px
+    }
+
+    .pad-icon a {
+        text-decoration: none;
+        margin-right: 40px
+    }
+
+    .input-group input:focus {
+        border: 1px solid blue
+    }
+
+    .pad-icon a:active {
+        height: 30px;
+        width: 30px;
+        background-color: #0080ff;
+        border-radius: 100%
+    }
+
+    .links {
+        padding-top: 50px;
+        width: 50%
+    }
+
+    #bordering a:active {
+        border: 1px solid #0080ff
+    }
+
+    @media(min-width:568px) {
+        .container-fluid {
+            margin: 100px 30px;
+            width: 96%;
+            padding-top: 50px;
+            padding-bottom: 50px
+        }
+    }
+
+    @media(max-width:567px) {
+        .container-fluid {
+            margin: 10px 10px;
+            width: 94%;
+            padding-top: 20px;
+            padding-bottom: 20px
+        }
+
+        .pad {
+            padding-top: 20px
+        }
+    }
+    </style>
+</head>
+
+<body>
+<div class="container-fluid rounded">
+    <div class="row px-5">
+        <div class="col-sm-6">
+            <div>
+                <h3 class="text-white">Contact Me</h3>
+                <p class="text-secondary">Fill up the form to contact me or you can send an email to the below email id.</p>
+            </div>
+            <div class="links" id="bordering"><a href="#" class="btn rounded text-white p-3"><i
+                    class="fa fa-phone icon text-primary pr-3"></i>+1-214-930-7886</a> <a href="#"
+                                                                                          class="btn rounded text-white p-3"><i
+                    class="fa fa-envelope icon text-primary pr-3"></i>premkamalosipalli@gmail.com</a> <a href="mailto: premkamalosipalli@gmail.com"
+                                                                                                         class="btn rounded text-white p-3"><i
+                    class="fa fa-map-marker icon text-primary pr-3"></i>5201, Par Dr, Denton, Texas</a></div>
+            <div class="pt-lg-4 d-flex flex-row justify-content-start">
+                <div class="pad-icon"><a class="fa fa-facebook text-white" href="https://www.facebook.com/Kamal.Osipalli"></a></div>
+                <div class="pad-icon"><a class="fa fa-instagram text-white" href="https://www.instagram.com/premkamal.osipalli/"></a></div>
+                <div class="pad-icon"><a class="fa fa-linkedin text-white" href="https://www.linkedin.com/in/prem-kamal-osipalli-73ba65114/"></a></div>
+            </div>
+        </div>
+        <div class="col-sm-6 pad">
+            <form class="rounded msg-form">
+                <div class="form-group"><label for="name" class="h6">Your Name</label>
+                    <div class="input-group border rounded">
+                        <div class="input-group-addon px-2 pt-1">
+                            <p class="fa fa-user-o text-primary"></p>
+                        </div>
+                        <input id="name" type="text" class="form-control border-0">
+                    </div>
+                </div>
+                <div class="form-group"><label for="email" class="h6">Email</label>
+                    <div class="input-group border rounded">
+                        <div class="input-group-addon px-2 pt-1"><i class="fa fa-envelope text-primary"></i></div>
+                        <input id="email" type="text" class="form-control border-0">
+                    </div>
+                </div>
+                <div class="form-group"><label for="msg" class="h6">Message</label> <textarea id="msg" name="message"
+                                                                                              id="msgus"
+                                                                                              cols="10" rows="5"
+                                                                                              class="form-control bg-light"
+                                                                                              placeholder="Message"></textarea>
+                </div>
+                <div class="form-group d-flex justify-content-end"><input type="submit"
+                                                                          class="btn btn-danger text-white"
+                                                                          value="send message"></div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
