@@ -1,6 +1,6 @@
 *{
-    content: "width=device-width, initial-scale=1.0"
-    width: 100%;
+    content: "width=device-width, initial-scale=1.0";
+    /*width: 100%;*/
 	font-family: 'Josefin Sans', sans-serif;
 	box-sizing: content-box;
 }
@@ -66,22 +66,27 @@ nav ul {
 	transform: scale(1.2);
 }
 .content{
-	position: absolute;
+	/*position: absolute;*/
+	/*text-align: center;*/
+	/*top: 35%;*/
+	/*left:30%;*/
+	/*transform: translateY(-50%);*/
+	color: #2424ac;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
 	text-align: center;
-	top: 35%;
-	left:30%;
-	transform: translateY(-50%);
 }
 h1{
 	color: #000000;
-	margin: 20px 0px 20px;
+	margin: 20px 1px 20px;
 	font-size: 55px;
 	text-align: center;
 }
 h3{
 	color: #000000;
-	font-size: 25px;
-	margin-bottom: 50px;
+	letter-spacing: 2px;
+	font-size: 20px;
 	text-align: center;
 }
 h4{
@@ -91,46 +96,57 @@ h4{
 	text-align: center;
 }
 .newslatter form{
-	width: 380px;
-	max-width: 100%;
+	/*width: 380px;*/
+	/*max-width: 100%;*/
+	color: #000000;
+	letter-spacing: 2px;
+	font-size: 20px;
+	text-align: center;
 	position: relative;
+	display: inline-flex;
+	justify-content: center; /* Center the form horizontally */
+	align-items: center; /* Center vertically */
 }
+
 .newslatter form input:first-child{
-	display: inline-block;
-	width: 65%;
-	padding: 14px 130px 14px 15px;
+
+	width: 70%;
+	padding: 14px 130px 14px 25px;
 	border: 2px solid #000000;
 	outline: none;
 	position: relative;
-	border-radius: 30px;
+	border-radius: 50px;
 }
 .newslatter form input:last-child{
 	position: absolute;
-	display: inline-block;
+	display: flex;
 	outline: none;
 	border: none;
-	padding: 10px 30px;
+	padding: 10px 40px;
 	border-radius: 10px;
 	background-color:#38761d;
 	color: white;
-	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
 	top: 6px;
-	right: 0px;
+	right: 0;
+}
+
+.newslatter form input:last-child{
+	box-shadow: 0 0 5px #000, 0 0 15px #858585;
 }
 
 .about{
 	width: 100%;
-	padding: 50px 0px;
+	padding: 50px 0;
 	background-color: #FFFFFF;
 }
 .about img{
-	height: 400px;
-	width: 400px;
-	border-radius: 50%;
+	height: 500px;
+	width: 500px;
+	border-radius: 100%;
 	object-fit: cover;
 }
 .about-text{
-	width: 550px;
+	width: 450px;
 }
 .main{
 	width: 1130px;
@@ -180,13 +196,13 @@ button:hover{
 .projects{
 	background: #FFFFFF;
 	width: 100%;
-	padding: 100px 0px;
+	padding: 100px 0;
 }
 
 .experience{
     background: #FFFFFF;
     width: 100%;
-    padding: 100px 0px;
+    padding: 100px 0;
 }
 .title h2{
 	color: #2424ac;
@@ -217,7 +233,7 @@ button:hover{
 	font-size: 50px;
 	display: block;
 	text-align: center;
-	margin: 25px 0px;
+	margin: 25px 0;
 	color: #333333;
 
 }
@@ -247,6 +263,57 @@ h5{
 	border: 2px solid #f9004d;
 	cursor: pointer;
 }
+
+.certifications-container {
+	padding: 50px;
+	background-color: #FFFFFF;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	margin-bottom: 30px;
+}
+
+.certifications-container h2 {
+	color: #2424ac;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.certification a {
+	text-decoration: none; /* Remove underline */
+	color: #333; /* Change text color */
+	display: block; /* Make the entire block clickable */
+	padding-bottom: 10px; /* Add spacing between certifications */
+}
+
+.certifications-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	gap: 20px;
+}
+
+.certification {
+	background-color: #f2f2f2;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+.certification h3 {
+	margin-top: 0;
+	color: #000000;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.certification p {
+	margin: 5px 0;
+	color: #000000;
+}
+
+
 
 .skills-container {
     max-width: 800px;
@@ -342,7 +409,7 @@ footer p:nth-child(2){
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background:  #f9004d;
+	background:  cornflowerblue;
 	border-radius: 50%;
 	margin: 22px 10px;
 	color: white;
@@ -355,7 +422,7 @@ footer p:nth-child(2){
 }
 .end{
 	position: absolute;
-	color:#f9004d;
+	color:#000000;
 	bottom: 35px;
 	font-size: 14px; 
 }
