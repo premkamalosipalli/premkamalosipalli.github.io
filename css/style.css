@@ -84,7 +84,7 @@ h1{
 	text-align: center;
 }
 h3{
-	color: #000000;
+	color: #2424ac;
 	letter-spacing: 2px;
 	font-size: 20px;
 	text-align: center;
@@ -196,13 +196,13 @@ button:hover{
 .projects{
 	background: #FFFFFF;
 	width: 100%;
-	padding: 100px 0;
+	padding: 10px 0;
 }
 
 .experience{
     background: #FFFFFF;
     width: 100%;
-    padding: 100px 0;
+    padding: 10px 0;
 }
 .title h2{
 	color: #2424ac;
@@ -296,7 +296,7 @@ h5{
 	background-color: #f2f2f2;
 	border-radius: 8px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-	padding: 20px;
+	padding: 10px;
 	margin: 30px auto;
 	text-align: center;
 }
