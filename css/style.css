@@ -265,7 +265,7 @@ h5{
 }
 
 .certifications-container {
-	padding: 50px;
+	padding: 10px;
 	background-color: #FFFFFF;
 	border-radius: 8px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -275,7 +275,7 @@ h5{
 .certifications-container h2 {
 	color: #2424ac;
 	font-size: 75px;
-	width: 1130px;
+	width: 530px;
 	margin: 30px auto;
 	text-align: center;
 }
@@ -380,7 +380,7 @@ h2 {
 footer{
 	position: relative;
 	width: 100%;
-	height: 400px;
+	height: 200px;
 	background: #FFFFFF;
 	display: flex;
 	flex-direction: column;
