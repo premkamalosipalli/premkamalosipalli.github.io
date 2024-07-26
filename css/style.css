@@ -29,7 +29,7 @@ nav{
 .logo-image {
 	height: 50px; /* Adjust as needed */
 	width: auto; /* Maintain aspect ratio */
-	margin-right: 20px; /* Space between logo and other elements */
+	margin-right: 20px;
 	/* Optional: add border or shadow */
 	border-radius: 5px; /* Rounded corners */
 }
