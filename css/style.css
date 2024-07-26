@@ -5,7 +5,7 @@
 	box-sizing: content-box;
 }
 .hero{
-	height: 50vh;
+	height: 35vh;
 	background-color:#FFFFFF;
 	width: 100%;
 	background-size: cover;
@@ -24,6 +24,26 @@ nav{
 	font-size: 35px;
 	letter-spacing: 1px;
 	cursor: pointer;
+}
+/* Style for the logo image */
+.logo-image {
+	height: 50px; /* Adjust as needed */
+	width: auto; /* Maintain aspect ratio */
+	margin-right: 20px; /* Space between logo and other elements */
+	/* Optional: add border or shadow */
+	border-radius: 5px; /* Rounded corners */
+}
+.header-title {
+	display: flex;
+	align-items: center;
+}
+.header-title img {
+	height: 40px; /* Adjust as needed */
+	margin-right: 10px; /* Space between image and text */
+}
+.header-title h1 {
+	font-size: 24px; /* Adjust as needed */
+	margin: 0;
 }
 span{
 	color: #2424ac;
