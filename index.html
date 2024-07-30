@@ -15,6 +15,21 @@
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
 		  integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+	<script>
+		// Disable right-click
+		document.addEventListener('contextmenu', event => event.preventDefault());
+
+		// Disable certain key combinations (like F12, Ctrl+Shift+I, etc.)
+		document.addEventListener('keydown', function(event) {
+			if (event.keyCode == 123) { // F12
+				event.preventDefault();
+			}
+			if (event.ctrlKey && event.shiftKey && (event.keyCode == 73 || event.keyCode == 74)) { // Ctrl+Shift+I/J
+				event.preventDefault();
+			}
+		});
+	</script>
+
 </head>
 <body>
 	<!----hero Section start---->
@@ -284,7 +299,7 @@
 				<div class="pra">
 					<p>Developed a C++ maze generation program on Google Cloud Platform, utilizing DFS and BFS algorithms. Determined DFS as the faster algorithm through comprehensive testing, leveraging GCP's scalable infrastructure.</p>
 					<p style="text-align: center;">
-						<a class="button" href="https://github.com/premkamalosipalli/maze-generation" target="_blank">View Project</a>
+						<a class="button" href="https://github.com/premkamalosipalli/Maze_Solver.git" target="_blank">View Project</a>
 					</p>
 				</div>
 			</div>
@@ -296,7 +311,7 @@
 				<div class="pra">
 					<p>Designed and developed a payment management system using Java (Servlets, Spring) and ReactJS/NodeJS. Implemented PayPal Sandbox integration and migrated to Spring Boot/Hibernate for enhanced performance.</p>
 					<p style="text-align: center;">
-						<a class="button" href="https://github.com/premkamalosipalli/movie-ticketing-system" target="_blank">View Project</a>
+						<a class="button" href="https://github.com/premkamalosipalli/Movie-Booking-System.git" target="_blank">View Project</a>
 					</p>
 				</div>
 			</div>
@@ -308,7 +323,7 @@
 				<div class="pra">
 					<p>Implemented a pioneering Python-based document clustering algorithm to enhance accuracy in categorizing documents. Utilized advanced NLP techniques to identify subject-related words and phrases, improving the precision of document clustering.</p>
 					<p style="text-align: center;">
-						<a class="button" href="https://github.com/premkamalosipalli/contextual-document-clustering" target="_blank">View Project</a>
+						<a class="button" href="https://github.com/premkamalosipalli" target="_blank">View Project</a>
 					</p>
 				</div>
 			</div>
